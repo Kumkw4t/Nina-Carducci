@@ -62,7 +62,7 @@ body {
 }
 
 .picture {
-	flex: 1;
+	width: 30%;
 	margin: 0 20px;
 	z-index: 0;
 }
@@ -72,7 +72,7 @@ body {
 
 }
 #about-me {
-	flex: 2
+	width: 70%;
 }
 .about-me__title {
 	margin-top: 1em;
@@ -104,6 +104,9 @@ body {
 	color: #fff;
 	background-color: #BEB45A;
 	border-radius:0 ;
+}
+.nav-link {
+	cursor: pointer;
 }
 .nav-pills .nav-link {
 	color: #000

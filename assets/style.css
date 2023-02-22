@@ -249,7 +249,10 @@ input[type="submit"] {
 
 @media all and (max-width: 1180px) {
 	.picture {
-		flex : 2;
+		width: 50%;
+	}
+	.about-me {
+		width: 50%;
 	}
 	#about, #contact .container {
 		align-items: center;
@@ -266,7 +269,6 @@ input[type="submit"] {
 @media all and (max-width: 1000px) {
 	#about{
 		flex-direction: column;
-
 	}
 	.picture {
 		width: 50%;

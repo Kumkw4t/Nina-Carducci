@@ -83,6 +83,7 @@ body {
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
+	font-size: 1rem;
 }
 #about-me p {
 	width: 80%;
@@ -101,7 +102,8 @@ body {
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: #BEB45A;
+/*	background-color: #BEB45A;*/
+	background-color: #7a743a;
 	border-radius:0 ;
 }
 .nav-link {
@@ -153,7 +155,7 @@ body {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
-
+	font-size: 2.5rem;
 }
 .quote__author {
 	font-family: Spectral;
@@ -258,8 +260,12 @@ input[type="submit"] {
 		margin-top: 0;
 		margin-bottom: 1em;
 	}
-	#about-me h6, #about-me p {
+	.about-me__introduction, #about-me p {
 		width: 100%;
+	}
+
+	.quote__text {
+		font-size: calc(1.375rem + 1.5vw);
 	}
 }
 

@@ -163,25 +163,43 @@
 		</div>
 	</div>
 </div>
-
-<div itemscope itemtype="https://schema.org/LocalBusiness" style="display:none;">
-	<img itemprop="image" src="./assets/images/nina.webp" alt="Portrait de la photographe Nina Carducci"/>
-	<span itemprop="name">Nina Carducci</span>
-
-	<div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
-	<span itemprop="streetAddress">68 avenue Alsace-Lorraine</span>
-	<span itemprop="addressLocality">Bordeaux</span>
-	<span itemprop="addressRegion">Bordeaux</span>
-	<span itemprop="postalCode">33200</span>
-	</div>
-
-	<span itemprop="telephone">0556677889</span>
-
-	<time itemprop="openingHours" datetime="Mo-Th 10:00-19:00">Disponible du lundi au vendredi de 10h à 19h</time>
-</div>
 </body>
 <script src="./assets/bootstrap/bootstrap.bundle.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha384-Ft/vb48LwsAEtgltj7o+6vtS2esTU9PCpDqcXs4OCVQFZu5BqprHtUCZ4kjK+bpE" crossorigin="anonymous"></script>
-	<script src="./assets/maugallery.js"></script>
-	<script src="./assets/scripts.js"></script>
+<script src="./assets/maugallery.js"></script>
+<script src="./assets/scripts.js"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "localBusiness",
+  "image": [
+    "./assets/images/camera.webp",
+   ],
+  "name": "Nina Carducci",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "68 avenue Alsace-Lorraine",
+    "addressLocality": "Bordeaux",
+    "addressRegion": "Bordeaux",
+    "postalCode": "33200",
+    "addressCountry": "FR"
+  },
+  "url": "https://kumkw4t.github.io/Nina-Carducci/",
+  "telephone": "0556677889",
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "10:00",
+      "closes": "19:00"
+    }
+  ]
+}
+</script>
 </html>
